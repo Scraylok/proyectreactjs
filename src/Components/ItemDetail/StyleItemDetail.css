@@ -1,0 +1,31 @@
+.container {
+    width: 95%;
+    margin: 4rem;
+    margin-top: 8.5rem;
+}
+.detail {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-image {
+    width: 50%;
+    height: 350px;
+    
+}
+.content {
+    width: 100%;
+}
+.purchase_options{
+    color: orangered;
+    font-size: x-large;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 5rem;
+}
+.container_purchase-options {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,61 @@
+
+.StyleCard {
+    background-color: rgba(79, 79, 82, 0.399);
+    display: flex;
+    width: 25rem;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 15px;
+    margin-top: 5rem;
+}
+
+.thumbnail {
+    background-color: bisque;
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.StyleCard-body{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.StyleCard-tittle {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-weight: 800;
+}
+.StyleCard-text {
+    flex-wrap: wrap;
+    display: flex;
+    font-weight: 400;
+    color: white;
+}
+
+.StyleCard-btn {
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 700;
+    color: rgba(255, 0, 0, 0.703);
+    width: 7.5rem;
+    border-radius: 10px;
+    padding: 0.1rem;
+    margin: 0.1rem;
+}
+
+.StyleCard-btn:hover {
+
+  color: rgb(7, 155, 130);
+    
+}
+.StyleCard-cat{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: larger;
+    color: white;
+}
