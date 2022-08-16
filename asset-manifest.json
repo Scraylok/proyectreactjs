@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/proyectreactjs/static/css/main.b2f852a7.css",
+    "main.js": "/proyectreactjs/static/js/main.f4c48a19.js",
+    "static/js/787.965bb73b.chunk.js": "/proyectreactjs/static/js/787.965bb73b.chunk.js",
+    "static/media/Fondo-jp.png": "/proyectreactjs/static/media/Fondo-jp.c07dab4183781f2f1bfa.png",
+    "static/media/Kaizen.png": "/proyectreactjs/static/media/Kaizen.8a46d71ebc0fe1eb0af6.png",
+    "static/media/shopping-cart.png": "/proyectreactjs/static/media/shopping-cart.f98cff64ec24882a6a6f.png",
+    "index.html": "/proyectreactjs/index.html",
+    "main.b2f852a7.css.map": "/proyectreactjs/static/css/main.b2f852a7.css.map",
+    "main.f4c48a19.js.map": "/proyectreactjs/static/js/main.f4c48a19.js.map",
+    "787.965bb73b.chunk.js.map": "/proyectreactjs/static/js/787.965bb73b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f852a7.css",
+    "static/js/main.f4c48a19.js"
+  ]
+}
