@@ -1,4 +1,5 @@
 import React from "react";
+import CircleLoader from "react-spinners/CircleLoader"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './StylesItemList.css'
 import { useState, useEffect } from "react";
@@ -8,7 +9,7 @@ import { db } from "../../firebase/firebase";
 import { getDocs, collection, query, where } from "firebase/firestore";
 
 
-export const ItemListContainer = ({}) => {
+export const ItemListContainer = ({greeting}) => {
     
     const [productsList, setProductsList] =useState([]);
     const [loading, setLoading]=useState(true);
@@ -40,9 +41,11 @@ export const ItemListContainer = ({}) => {
    
     return (
         <>
-        
-        {loading ? <p>Cargando...</p> : <ItemList productsList={productsList}/>};
-        
+        <div>
+            <span className= "greeting">{greeting}</span>
+            <div className=""> {loading ? <CircleLoader color="hsla(23, 100%, 50%, 1)"  loading size={30} />
+            : <ItemList productsList={productsList}/>} </div>
+        </div>
         
         </>
     )

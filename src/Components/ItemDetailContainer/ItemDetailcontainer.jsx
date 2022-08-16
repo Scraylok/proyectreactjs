@@ -1,5 +1,6 @@
 
 import React,{useEffect,useState} from 'react'
+import CircleLoader from "react-spinners/CircleLoader"
 import { useParams } from 'react-router-dom';
 import  ItemDetail  from '../ItemDetail/ItemDetail'
 import { db } from '../../firebase/firebase';
@@ -27,7 +28,12 @@ export const ItemDetailcontainer = () => {
   }, [id]);
 
   return (
-    <ItemDetail products={products}/>
+    <div>
+
+      {loading ? <CircleLoader color="hsla(23, 100%, 50%, 1)"  size={30} />
+      : <ItemDetail products={products}/>};
+    </div>
+    
   );
 }
 export default ItemDetailcontainer
