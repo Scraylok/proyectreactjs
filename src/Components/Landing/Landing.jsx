@@ -2,7 +2,7 @@ import React from "react";
 import "../Landing/StyleLanding.css";
 import KaizenLogo from "../../Assests/Kaizen.png"
 
-const  ItemListContainer = ({Greeting}) => {
+const  Landing = ({Greeting}) => {
     return (
     <div className="landing">
         
@@ -12,4 +12,4 @@ const  ItemListContainer = ({Greeting}) => {
     </div>
     )
 }
-export default ItemListContainer
+export default Landing

@@ -14,7 +14,7 @@ export const Cartcontext = React.createContext('');
 function App() {
   return (
   
-   <BrowserRouter>
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
       <CartProvider>
         <Navbar/>
         <Routes>
