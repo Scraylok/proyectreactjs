@@ -40,23 +40,21 @@ const itemsNav =  [
 
 const Navbar = () => {
     return (
-        <div className="nav">
+
+        <nav className="nav">
+            
             <img className="nav-logo" src={kaizenLogo} alt="Kaizen logo" />
-           
-          
-        
-            
-            <div className="nav-items">
 
-            {itemsNav.map((catnav)=> (
+            <ul className="nav-items">
+                {itemsNav.map((catnav)=> (
                 <Link className="nav-item" key={catnav.id}  to={catnav.path}>{catnav.name}</Link>
+                
+                ))}
+                <Link className="nav_cartwidget" to='Cart'> <CartWidget/> </Link>
+            </ul>
 
-            ))}
-            </div>
-            <Link className="nav-item" to='Cart'> <CartWidget/> </Link>
-            
-        </div>
-
+        </nav>
+        
     )
 }
 export default Navbar

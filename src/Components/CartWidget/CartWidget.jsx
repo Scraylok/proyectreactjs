@@ -9,8 +9,10 @@ const CartWidget = () => {
 
     return (
         <>
-        <button className="cart-btn"><img src={shopping_cart} alt="Cart Icon" className="cart-widget"/></button>
-        <span>{totalProducts() || ''}</span>
+        <button className="cart-btn">
+            <img src={shopping_cart} alt="Cart Icon" className="cart-widget"/>
+            <p className="totalproducts">{totalProducts() || ''}</p>
+        </button>
          </>
 
     )

@@ -1,4 +1,6 @@
 .cart-btn {
+    display: grid;
+    grid-template-columns: 50px 40px;
     background: none;
     border: none;
     cursor: pointer;
@@ -10,4 +12,9 @@
 .cart-widget {
     width: 2.5rem;
     height: 2.5rem;
+}
+.totalproducts {
+    padding: 10px;
+    color: white;
+    font-weight: 700;
 }
