@@ -7,7 +7,7 @@ const Cart = () => {
     const { products, clearCart, totalPrice, removeProduct } = useCartContext();
     const navegar = useNavigate()
 
-    console.log(products)
+    
  
     return (
         <>
