@@ -11,7 +11,7 @@ export const ItemDetail = ({ products }) => {
 
   const onAdd = (quantity) => {
     setGoToCart(quantity);
-    addProduct({products,quantity});
+    addProduct(products, quantity);
   };
 
   return (

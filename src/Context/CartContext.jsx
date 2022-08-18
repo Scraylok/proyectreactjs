@@ -8,6 +8,7 @@ const CartProvider = ({ children }) => {
     const [products, setProducts] = useState([]);
 
     const addProduct = (Item, quantity) => {
+      localStorage.setItem('prods', JSON.stringify(products));
         if (isInCart(Item.id)){
           setProducts(products.map(product => {
             return product.id === Item.id ? {...product, quantity: product.quantity + quantity} : product
